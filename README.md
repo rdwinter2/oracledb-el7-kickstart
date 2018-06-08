@@ -3,9 +3,11 @@ Oracle Database EL7 kickstart ISO creator
 
 ## Description
 
-This Ansible role creates a self-contained ISO image for an unattended of an Enterprise Linux 7 server suited for the installation and operation of an Oracle database. 
+This Ansible role creates an Enterprise Linux 7 server virtual machine suited for the installation and operation of an Oracle database. It builds a custom kickstart file based on variables in the role. Then it can build an ISO image with the kickstart and all required packages and files, or it will write the kickstart file to a PXE server. Next it creates a new virtual machine on VMware vCenter. If the ISO was built it starts the VM with the ISO in the CD-ROM drive. Otherwise, the machine will network boot and pick up the kickstart via the PXE server. The machine will automatically install the operating system and reboot. Once it reboot, it is available for further use.
 
 This role follows the hardening best pratices outlined in [RedHatGov/ssg-el7-kickstart](https://github.com/RedHatGov/ssg-el7-kickstart).
+
+
 
 ## Documentation
 

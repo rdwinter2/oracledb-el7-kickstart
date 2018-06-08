@@ -1,5 +1,14 @@
 ---
 
+# Boot type ISOBoot or PXEBoot
+# ISOBoot - build a self contained ISO image and use CDROM drive to boot
+# PXEBoot - write kickstart to PXE server and perform network boot
+boot: PXEBoot
+
+
+
+# system disk /dev/sda size in GB
+disk_size: 10
 # partition sizes in KB
 boot_size: 512
 lv_root_size: 3072
