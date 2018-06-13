@@ -12,7 +12,6 @@ boot: PXEBoot
 ram: 2
 vcpu: 2
 
-
 # system disk /dev/sda size in GB
 # defaults are for a minimal installation
 
