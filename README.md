@@ -7,8 +7,6 @@ This Ansible role creates an Enterprise Linux 7 server virtual machine suited fo
 
 This role follows the hardening best pratices outlined in [RedHatGov/ssg-el7-kickstart](https://github.com/RedHatGov/ssg-el7-kickstart).
 
-
-
 ## Documentation
 
 ## Requirements

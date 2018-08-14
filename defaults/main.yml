@@ -5,6 +5,7 @@
 # PXEBoot - write kickstart to PXE server and perform network boot
 boot: PXEBoot
 
+
 # Minimum RAM in GB
 # https://docs.oracle.com/en/database/oracle/oracle-database/12.2/ladbi/database-installation-guide-linux.pdf
 # At least 1 GB RAM for Oracle Database installations. 2 GB RAM recommended.
